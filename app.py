@@ -26,5 +26,5 @@ api.register_blueprint(StoreBlueprint)
 # GET - send data
 
 # docker build -t flask-smorest-api .
-# docker run -dp 5005:5000 -w /app -v "$(pwd):/app" flask-smorest-api every changed code 
+# docker run -dp 5005:5000 -w /app -v "$(pwd):/app" flask-smorest-api  ## every changed code reflects on image
 # in here must change as well on docker image and don't have to rebuilding and rerunning docker build and run everytime
